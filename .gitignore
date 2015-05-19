@@ -1,13 +1,16 @@
 /jprelude-dataexport/target/
 /jprelude-dataexport/.idea/
 /jprelude-dataexport/.netbeans/
+/jprelude-dataexport/tmp/
 
 /webui/bin/
-/webui/.cache/
-/webui/.classpath/
-/webui/.project/
+/webui/.cache
+/webui/.classpath
+/webui/.project
 /webui/.idea/
 /webui/target/
+/webui/tmp/
 
 /youi/.idea/
 /youi/target/
+/youi/tmp/
