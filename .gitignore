@@ -11,6 +11,13 @@
 /webui/target/
 /webui/tmp/
 
+
+/webui/target/
+/webui/.idea/
+/webui/.netbeans/
+/webui/tmp/
+
 /youi/.idea/
 /youi/target/
 /youi/tmp/
+/fxgraph/fxgraph/target/

@@ -1,0 +1,354 @@
+@font-face {
+    font-family: "Roboto Slab";
+    src: url('../fonts/RobotoSlab-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url('../fonts/RobotoSlab-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url('../fonts/Asap-Regular.otf');
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url('../fonts/Asap-Bold.otf');
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url('../fonts/Asap-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url('../fonts/Asap-Italic.otf');
+}
+
+@font-face {
+    font-family: "Cuprum";
+    src: url('../fonts/Cuprum-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Cuprum";
+    src: url('../fonts/Cuprum-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Cuprum";
+    src: url('../fonts/Cuprum-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Cuprum";
+    src: url('../fonts/Cuprum-Italic.ttf');
+}
+
+
+@font-face {
+    font-family: "Merriweather Sans";
+    src: url('../fonts/MerriweatherSans-Regular.otf');
+}
+
+@font-face {
+    font-family: "Merriweather Sans";
+    src: url('../fonts/MerriweatherSans-Bold.otf');
+}
+
+@font-face {
+    font-family: "Merriweather Sans";
+    src: url('../fonts/MerriweatherSans-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: "Merriweather Sans";
+    src: url('../fonts/MerriweatherSans-Italic.otf');
+}
+
+@font-face {
+    font-family: "FjallaOne";
+    src: url('../fonts/FjallaOne-Regular.otf');
+}
+
+
+@font-face {
+    font-family: "Nunito";
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('../fonts/NotoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('../fonts/NotoSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('../fonts/NotoSans-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('../fonts/NotoSans-Italic.ttf');
+}
+
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Italic.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Italic.ttf');
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Italic.ttf');
+}
+
+
+.root {
+    -fx-focus-color: orange;
+    -fx-faint-focus-color: transparent;
+
+    -fx-font-family: 'Roboto';
+    x-fx-font-size: 16;
+    -fx-font-smoothing-type: gray;
+    -fx-background-color: #f8f8f8;
+}
+
+.text-input {
+    x-fx-background-color: white;
+    x-fx-border-color: #c5c5c5;
+    -fx-border-radius: 4px;
+
+}
+
+
+.fxapp-application-header {
+    -fx-padding: 10 16 10 16;
+    -fx-background-color: cadetblue;
+}
+
+.fxapp-application-footer {
+    -fx-text-fill: #444;
+    -fx-background-color: #e8e8e8;
+    -fx-padding: 2 5 2 5;
+    -fx-border-width: 1 0 0 0;
+    -fx-border-color: rgb(210, 210, 210);
+}
+
+.fxapp-application-header-title {
+    fx-padding: 0;
+    -fx-font-size: 20;
+    -fx-text-fill: #f0f0f0;
+    -fx-font-weight: bold;
+}
+
+.fxapp-application-header-subtitle {
+    -fx-padding: 2 10 2 14;
+    -fx-font-size: 18;
+    -fx-font-style: italic;
+    -fx-text-fill: #f0f0f0;
+}
+
+
+.fxapp-module-navigator {
+    -fx-padding: 0;
+    xxx-fx-background-color: rgb(80, 90, 100);
+    -fx-background-color: rgb(241, 241, 241);
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: rgb(224, 224, 224);
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgb(229, 229, 229);
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane * {
+    -fx-background-color: null;
+    -fx-text-fill: rgb(102, 102, 102);
+    -fx-font-size: 15px;
+    -fx-border-width: 0;
+     -fx-font-smoothing-type: gray;
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .title {
+    -fx-padding: 10px 20px;
+    -fx-border-width: 1 0 0 0;
+    -fx-font-size: 14;
+    -fx-border-color: rgb(229, 229, 229);
+    -fx-text-fill: rgb(69, 69, 69);
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .content .fxapp-module-navigator-division {
+    -fx-padding: 2 10 10 50;
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .content .button {
+    -fx-padding: 0 5 5 0;
+}
+
+.fxapp-module-navigator .tab {
+    -fx-border-width: 0 !important;
+    -fx-border-color: transparent;
+}
+
+.fxapp-module-navigator .tab-header-area * {
+    -fx-border-width: 0;
+}
+
+.fxapp-module-navigator  * {
+    -fx-border-width: 0;
+}
+
+.fxapp-module-navigator .tab-header-background {
+    -fx-background-color: #ddd;
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .content .button:focused  {
+   -fx-background-color: derive(orange, 50%);
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .titled-pane .arrow-button .arrow {
+    -fx-background-color: white;
+    -fx-border-width: 0;
+    -fx-effect: none;
+    -fx-background-color:  #bbb;
+    -fx-position-shape: true;
+    -fx-shape: "M14.83 16.42l9.17 9.17 9.17-9.17 2.83 2.83-12 12-12-12z";
+    -fx-background-insets: 0;
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .titled-pane:focused .arrow-button .arrow {
+    -fx-background-color: cadetblue;
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane  .title * {
+    -fx-text-fill: cadetblue !important;
+}
+
+.fxapp-module-navigator .fxapp-module-navigator-divisions-pane .arrow-button {
+    -fx-padding: 0 20 0 0;
+}
+
+
+.tab-pane .tab-header-area {
+    -fx-padding: 0;
+}
+
+.fxapp-data-form {
+    -fx-background-color: #f8f8f8;
+}
+
+ .tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: none;
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ccc;
+    -fx-padding: 100;
+}
+
+ .tab-pane .tab-header-area .tab {
+    -fx-font-size: 14;
+    -fx-background-color: null;
+    -fx-border-width: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.fxapp-data-form .tab-pane .tab-header-area .tab .tab-label {
+    -fx-padding: 0 3 0 3;
+    -fx-text-fill: #707070;
+}
+
+
+.fxapp-data-form .tab-pane .tab-header-area .tab:selected .tab-label {
+    -fx-font-weight: bold;
+    -fx-text-fill:  cadetblue;
+}
+
+.fxapp-data-form .tab-pane .tab-header-area .tab:selected {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    xxx-fx-border-color: rgb(3, 158, 211);
+    -fx-border-color: cadetblue;
+    xxx-fx-border-color: rgb(25, 125, 225);
+        xxx-fx-border-color: rgb(20,20,20);
+}
+
+.fxapp-data-form .fxapp-data-form-header {
+    -fx-padding: 9 20 9 20;
+    xxx-fx-background-color: derive(cadetblue, 99%);
+    -fx-background-color: #e8e8e8;
+}
+
+.fxapp-data-form .fxapp-data-form-title {
+    -fx-text-fill: #707070;
+    -fx-font-size:  18;
+    -fx-font-weight: bold;
+}
+
+.fxapp-data-form .fxapp-data-form-subtitle {
+    -fx-text-fill: #707070;
+    -fx-font-size: 18;
+    -fx-padding: 0 0 0 16;
+
+}

@@ -81,6 +81,7 @@ class DataTable[T] (
       }
     }
     grid addStyleName "small compact tiny"
+
  
 
     grid.setSizeFull()  

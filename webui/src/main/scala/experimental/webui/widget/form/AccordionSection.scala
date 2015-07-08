@@ -10,6 +10,7 @@ case class AccordionSection(pages: SubPages) extends Section {
 
     for (page <- pages.pages) {
       val vbox = new VerticalLayout
+      vbox setMargin true
 
       vbox setCaption page.title
       ret addComponent vbox

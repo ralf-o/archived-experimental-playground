@@ -32,10 +32,13 @@
 @mixin webui {
   @include valo;
 
-
   .v-csslayout.v-component-group .v-menubar:first-child .v-menubar-menuitem-selected {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+  }
+
+  .webui-module-selector {
+      background-color: red;
   }
 
   .webui-flyout:after {
@@ -75,5 +78,4 @@
      z-index: 10001;
      padding: 10px;
    }
-
 }

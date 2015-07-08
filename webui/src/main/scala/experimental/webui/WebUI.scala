@@ -156,6 +156,7 @@ class WebUI extends UI {
             sections = pageVariantsSections)))))
 
     val sideBar = new DataForm(
+      margin = false,
       sections = Sections(
         AccordionSection(
           pages = SubPages(
@@ -199,15 +200,22 @@ class WebUI extends UI {
                       Link(
                         caption = "Warehouses"))))))))))
 
-    sideBar.component.setWidthUndefined()
-    sideBar.component.addStyleName("")
     sideBar.component.setHeight("100%")
+    sideBar.component.setWidth("100%")
+    sideBar.component.setSizeFull()
+
+
+
+    //sideBar.component.addStyleName("")
+    //sideBar.component.setHeight("100%")
+
+
      val hsplit = new HorizontalSplitPanel
-    sideBar.component.setWidthUndefined()
     myForm.component.setSizeFull()
    // htsplit setSizeFull()
 
     hsplit setFirstComponent  sideBar.component
+
 
     hsplit setSecondComponent  myForm.component
     hsplit.setSplitPosition(200, Sizeable.Unit.PIXELS);

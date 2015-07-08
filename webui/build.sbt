@@ -1,10 +1,10 @@
-name := "jprelude-webui"
+name := "webui"
 
 version := "0.1" 
 
 scalaVersion := "2.11.6"
 
-val vaadinVersion = "7.4.6"
+val vaadinVersion = "7.5.0"
 
 libraryDependencies ++= Seq(
    "com.vaadin" % "vaadin-server" % vaadinVersion,
